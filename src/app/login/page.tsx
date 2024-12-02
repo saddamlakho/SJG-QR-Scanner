@@ -1,4 +1,3 @@
-import '../styles/globals.css';
 
          'use client'
          import Form from "./form";         
