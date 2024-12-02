@@ -113,7 +113,7 @@ export default function AddItemForm() {
                   value={formData.SAP_ID}
                   onChange={handleChange}
                   placeholder="Enter SAP ID"
-                  className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="p-2 border text-black border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
 
@@ -125,7 +125,7 @@ export default function AddItemForm() {
                   value={formData.productName}
                   onChange={handleChange}
                   placeholder="Enter Product Name"
-                  className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="p-2 border text-black border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
 
@@ -136,7 +136,7 @@ export default function AddItemForm() {
                   id="Date"
                   value={formData.Date}
                   onChange={handleChange}
-                  className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="p-2 border text-black border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
 
@@ -146,7 +146,7 @@ export default function AddItemForm() {
                   type="file"
                   accept=".pdf"
                   onChange={handleFileChange}
-                  className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="p-2 border  border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
                 {fileName && (
                   <p className="text-sm mt-1">

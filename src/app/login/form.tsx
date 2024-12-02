@@ -93,7 +93,7 @@ export default function LoginForm() {
                             name="email"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
-                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"
+                            className="w-full text-black px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"
                             placeholder="Enter your email"
                         />
                         {error?.email && (
@@ -111,7 +111,7 @@ export default function LoginForm() {
                             name="password"
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
-                            className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"
+                            className="w-full text-black px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"
                             placeholder="Enter your password"
                         />
                         {error?.password && (
